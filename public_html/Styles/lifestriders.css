@@ -41,10 +41,35 @@ body{
  
 }
 
+#printPreviewButton{
+  background: #09C;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
+
+#printPreviewButton:hover {
+  background: #0066cc;
+  color: #09C;
+}
+
 #printButton{
-    margin-top: -2px;
+    
     margin-left: 25px;
     margin-bottom: 25px;
+    background: #09C;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    border-radius: 15px;
+    border: 1p solid #999;
+}
+
+#printButton:hover {
+  background: #0066cc;
+  color: #09C;
 }
 .wrapperOverall{
     background-color: #EDE4BD;
@@ -62,4 +87,8 @@ body{
      padding: 20px;
      display:inline-block;
      /*line-height: 0.8;*/
+}
+
+p, h2 {
+    font-family: Verdana, Geneva, sans-serif;
 }
